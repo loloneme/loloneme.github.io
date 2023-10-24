@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #252525;
+}
+
+body{
+    font-family: 'Forum', serif;
+    /* background: linear-gradient(#7F9CBC, #000000); */
+}
+
+.container-1{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.block-1{
+    background-image: url('../src/tree.png');
+    height: 1089px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigation{
+    margin: 0 auto;
+    max-width: 820px;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0 0 0;
+    margin: 0;
+}
+
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu li{
+    font-size: 25px;
+}
+
+.intro-block{
+    padding-top: 191.2px;
+    text-align: center;
+}
+
+.intro-block .real{
+    padding-top: 41.5px;
+    font-size: 75px;
+}
+
+.intro-block .desc{
+    padding-top: 50px;
+    margin: 0 auto;
+    font-size: 25px;
+    max-width: 407px;
+    font-family: 'Montserrat', sans-serif;
+}
+
