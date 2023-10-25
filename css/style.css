@@ -8,14 +8,22 @@ body {
     font-family: 'Forum', serif;
 }
 
+[class*="container-"]{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+[class*="-text-2"]{
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;;
+}
+
 .gradient{
     background: linear-gradient(#7F9CBC, #000000); 
 }
 
-.container-1{
-    margin: 0 auto;
-    max-width: 1440px;
-}
 
 .block-1{
     font-size: 25px;
@@ -34,7 +42,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding: 22px 0 0 0;
+    padding-top: 22px;
     margin: 0;
 }
 
@@ -61,11 +69,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container-2{
-    margin: 0 auto;
-    max-width: 1440px;
-}
-
 .block-2 {
     padding: 140px;
     padding-bottom: 0;
@@ -76,11 +79,11 @@ body {
 
 .womanlook{
     width: 600px;
-    padding-right: 60px;
+    margin-right: 60px;
 }
 
 .text {
-    display: block;
+    float: right;
 }
 
 .question{
@@ -89,20 +92,23 @@ body {
 
 .sur-desc span{
     color: #9B322C;
+    font-weight: 400;
 }
 
 .description{
     padding-top: 67px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    font-weight: 300;
 }
 
 .quote{
-    display: block;
-    justify-content: right;
     padding-top: 145px;
     max-width: 408px;
+    float: right;
 }
+
+
 
 .quote-text{
     font-size: 25px;
@@ -111,6 +117,46 @@ body {
 .quote .author{
     text-align: right;
     font-size: 15px;
+    font-weight: 300;
     font-family: 'Montserrat', sans-serif;
 }
 
+.block-3{
+    padding-top: 89px;
+    color: black;
+}
+
+.block-3 .intro-text{
+    font-size: 45px;
+    text-align: center;
+}
+
+.block-3 .intro-text span{
+    color: #A80606;
+}
+
+.block-3 .dive{
+    margin-top: 132px;
+    padding-left: 140px;
+}
+
+.block-3 .dive-text{
+    font-size: 65px;
+}
+
+.block-3 .dive-text-2{
+    max-width: 360px;
+}
+
+.block-3 .shagal-pic{
+    margin-top: 140px;
+    float: right;
+}
+
+img#picture{
+    transform: rotate(-40deg);
+    scale: 1.1;
+}
+.aboba{
+    display: flex;
+}
