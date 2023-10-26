@@ -4,25 +4,28 @@
 }
 
 body {
+    width: 1440px;
     color: #252525; 
     font-family: 'Forum', serif;
 }
 
-[class*="container-"]{
+.container{
     margin: 0 auto;
     max-width: 1440px;
 }
 
+[class*="-text"]{
+    font-size: 65px;
+}
+
 [class*="-text-2"]{
+    margin-top: 11px;
     font-size: 20px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;;
 }
 
-.gradient{
-    background: linear-gradient(#7F9CBC, #000000); 
-}
 
 
 .block-1{
@@ -63,10 +66,15 @@ body {
 }
 
 .intro-block .desc{
-    padding-top: 50px;
+    padding-top: 40px;
     margin: 0 auto;
     max-width: 407px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.gradient{
+    background-image: url('../src/back.svg');
+    background-size: cover;
 }
 
 .block-2 {
@@ -150,13 +158,214 @@ body {
 
 .block-3 .shagal-pic{
     margin-top: 140px;
-    float: right;
 }
 
-img#picture{
-    transform: rotate(-40deg);
-    scale: 1.1;
-}
-.aboba{
+.text-and-pic{
     display: flex;
+}
+
+.block-4{
+    padding-top: 300px;
+    text-align: center;
+}
+
+.block-4 .content{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1075px;
+    margin: 0 auto;
+}
+
+.block-4 #left, .block-4 #right{
+    max-width: 273px;
+    height: auto;
+}
+
+.block-4 #right{
+    transform: rotate(15deg);
+}
+
+.block-4 #left{
+    scale: -1 1;
+    transform: rotate(15deg);
+}
+
+.block-4 .look{
+    padding-top: 55px;
+}
+
+.block-4 .look-text{
+    font-size: 65px;
+    color: #A80606;
+}
+
+.block-4 .look-text-2{
+    max-width: 316px;
+}
+
+.block-5{
+    padding-top: 185px;
+    display: flex;
+}
+
+.block-5 #man{
+    margin-left: 177px;
+    max-width: 723px;
+    height: auto;
+}
+
+.block-5 .find{
+    margin-top: 157px;
+    margin-left: 69px;
+    text-align: right;
+}
+
+.block-5 .find-text{
+    color: #C7A25D;
+}
+
+.block-6{
+    padding-top: 186px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block-6 .dali-q{
+    margin-top: 104px;
+    max-width: 437px;
+}
+
+.block-6 .dali-q span{
+    color: #AF5013;
+}
+
+#dali-pic{
+    max-width: 581px;
+}
+
+[class*="-q"]{
+    font-size: 40px;
+    color: white;
+}
+
+.block-7{
+    padding-top: 225px;
+    display: flex;
+    justify-content: center;
+}
+
+.block-7 #kahlo-1, .block-7 #kahlo-2{
+    border-radius: 50%;
+    max-width: 300px;
+}
+
+.block-7 .kahlo-q{
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+}
+
+.block-7 p{
+    margin-bottom: 14px;
+}
+
+.block-7 .kahlo-q #second{
+    text-align: center;
+}
+
+.block-7 .kahlo-q #third{
+    text-align: right;
+    margin-right: 30px;
+}
+
+.block-7 .kahlo-q #forth{
+    color: #6781DE;
+    margin-top: 58px;
+    text-align: center;
+}
+
+.block-8{
+    padding-top: 121px;
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+
+
+.block-8 #human-son{
+    max-height: 495px;
+    width: auto;
+    margin-left: 45px;
+}
+
+.block-8 .magritte-q{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.block-8 .magritte-q span{
+    color: #AADB42;
+}
+
+
+.block-8 .magritte-q #symbol{
+    margin-right: 200px;
+    max-width: 480px;
+}
+
+.block-8 .not-an-apple{
+    display: flex;
+    margin-top: 116px;
+}
+
+.block-8 #apple{
+    max-width: 187px;
+}
+
+.block-8 .apple-text{
+    display:grid;
+    margin-left: 28px;
+    margin-top: 109px;
+}
+
+.block-8  #why{
+    margin-left: 40px;
+    font-size: 25px;
+    max-width: 141px;
+}
+
+.block-8 #why span{
+    color: #A80606;
+}
+
+.block-9{
+    display: flex;
+    padding-top: 175px;
+    text-align: right;
+}
+
+.block-9 .text-freud{
+    display: flex;
+}
+
+.block-9 #book-pic{
+    max-width: 369px;
+    position: relative;
+    top: 80px; 
+    left: 100px;
+    transform: rotate(-16.5deg);
+}
+
+.block-9 .freud-q{
+    max-width: 535px;
+}
+
+.block-9 .freud-q span{
+    color: #6F7166;
+}
+
+.block-9 #freud{
+    max-width: 285px;
+    border-radius: 1000px 1000px 0 0;
 }
