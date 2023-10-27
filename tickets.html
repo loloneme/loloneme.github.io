@@ -4,25 +4,104 @@
         <meta charset="utf-8" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/tickets.css" rel="stylesheet">
 
         <title>Купить билет</title>
     </head>
     <body>
-        <div class="container-1">
+        <div class="container">
             <div class="block-1">
                 <div class="navigation">
-                    <nav class="menu">
-                        <ul>
-                            <li><a href="/index.html" >Главная</a></li>
-                            <li><a href="/tickets.html">Купить билет</a></li>
-                            <li><a href="/about.html">О выставке</a></li>
-                            <li><a href="/program.html">Программа</a></li>
-                        </ul>
-                    </nav>
+                    <ul>
+                        <li><a href="/index.html" >Главная</a></li>
+                        <li><a href="/tickets.html">Купить билет</a></li>
+                        <li><a href="/about.html">О выставке</a></li>
+                        <li><a href="/program.html">Программа</a></li>
+                    </ul>
                 </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="block-2">
+                <div class="main-text">
+                    <p id="first">ПРИОБРЕТЕНИЕ БИЛЕТА</p>
+                    <p id="second">Вы можете приобрести билеты онлайн или в кассе Новой Третьяковки</p>    
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>Студенты до 21 года, пенсионеры, инвалиды и ветераны ВОВ относятся к <span>льготной</span> категории. При покупке билета по льготе, предъявите документ на кассе при покупке, либо во время посещения выставки</li>
+                        <br><li>Лица младше 16 допускаются <span>только</span> в сопровождении родителей/опекунов/лиц старше 18-ти лет</li>
+                        <br><li>Дети до 6 лет могут посетить выставку <span>бесплатно</span>, но только в сопровождении родителей</li>
+                        <br><li>Билеты приобретаются без привязки ко времени и дате, вы можете купить билет и посетить выставку в <span>любой</span> день в часы ее работы</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="block-3">
+                <div class="ticket-list">
+                    <div class="cat">
+                        <div class="name">
+                            Льготный билет
+                        </div>
+                        <div class="cost">
+                            300₽
+                        </div>
+                        <div class="count">
+                            <button class="sub">−</button>
+                            <p>0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                    <div class="cat">
+                        <div class="name">
+                            Дети до 6 лет
+                        </div>
+                        <div class="cost">
+                            0₽
+                        </div>
+                        <div class="count">
+                            <button class="sub">−</button>
+                            <p>0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                    <div class="cat" style="border-bottom: 0;">
+                        <div class="name">
+                            Взрослые
+                        </div>
+                        <div class="cost">
+                            500₽
+                        </div>
+                        <div class="count">
+                            <button class="sub">−</button>
+                            <p>0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                    <!-- <table>
+                        <col style="width:30%">
+                        <col style="width:60%">
+                        <col style="width:10%">
+                        <tbody>
+                            <tr>
+                                <td>Льготный билет</td>
+                                <td id="cost">300₽</td>
+                            </tr>
+                            <tr>
+                                <td>Дети до 6 лет</td>
+                                <td id="cost">0₽</td>
+                            </tr>
+                            <tr style="border-bottom: 0;">
+                                <td>Взрослый билет</td>
+                                <td id="cost">500₽</td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+                </div>
+                
             </div>
         </div>
     </body>

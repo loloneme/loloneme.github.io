@@ -4,9 +4,7 @@
 }
 
 body {
-    width: 1440px;
-    background-color: black;
-    color: white; 
+    background-color: #4B1A14;
     font-family: 'Forum', serif;
 }
 
@@ -19,21 +17,143 @@ body {
     font-size: 25px;
 }
 
-.navigation{
+.block-1 .navigation{
     margin: 0 auto;
     max-width: 820px;
 }
 
-.menu ul{
+.block-1 ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     padding-top: 22px;
-    margin: 0;
 }
 
 
-.menu a{
+.block-1 a{
     text-decoration: none;
-    color: white; 
+    color: #9BCDCA; 
 }
+
+.block-2{
+    padding-top: 91px;
+}
+
+.block-2 .main-text{
+    text-align: center;
+}
+
+.block-2 .main-text #first{
+    color: #8EB2B0;
+    font-size: 75px;
+}
+
+.block-2 .main-text #second, .block-2 .list{
+    color: #D9C5A1;
+    font-size: 35px;
+}
+
+.block-2 .main-text #second{
+    padding-top: 90px;
+}
+
+.block-2 .list{
+    line-height: 45px;
+    padding-top: 75px;
+    padding-left: 170px;
+    max-width: 1180px;
+}
+
+.block-2 .list span{
+    text-decoration: underline;
+}
+
+.block-2 .list li{
+    list-style-type: square;
+    text-indent: 0;
+}
+
+.block-3{
+    padding-top: 120px;
+}
+
+.block-3 .ticket-list{ 
+    margin-left: 140px;  
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: left;;
+    
+    border: 1px solid black;
+    background-color: rgba(142, 178, 176, 0.78);
+    box-shadow: 5px 7px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 55px;
+    width: 1160px;
+}
+
+.block-3 .cat{
+    width: 1160px;
+    padding: 25px 0px 25px 0px;
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+.block-3 .name{
+    width: 253px;
+}
+
+
+.block-3 .cost{
+    color: #4B1A14;
+    font-size: 30px;
+    font-weight: 600;
+    width: 82px;
+}
+
+.block-3 .sub, .block-3 .add{
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #D9C5A1;
+    font-size: 25px;
+    color: black;
+}
+
+.block-3 .count{
+    display: flex;
+    justify-content: space-between;
+    width: 185px;
+}
+
+/* .block-3 .sub p, .block-3 .add p{
+    font-size: 25px;
+    color: black;
+    position: relative;
+    margin: 0;
+} */
+/* .block-3 table{
+    font-size: 30px;
+    color: black;
+    width: 1160px;
+    height: 270px;
+
+    font-family: "Montserrat", sans-serif;
+    
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+.block-3 tr{
+    border-bottom: 2px solid black;
+}
+
+.block-3 #cost{
+    color: #4B1A14;
+    font-size: 30px;
+    font-weight: 600;
+} 
+ */
