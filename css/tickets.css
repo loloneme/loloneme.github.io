@@ -120,6 +120,7 @@ body {
     background-color: #D9C5A1;
     font-size: 25px;
     color: black;
+    cursor: pointer;
 }
 
 .block-3 .count{
@@ -128,32 +129,3 @@ body {
     width: 185px;
 }
 
-/* .block-3 .sub p, .block-3 .add p{
-    font-size: 25px;
-    color: black;
-    position: relative;
-    margin: 0;
-} */
-/* .block-3 table{
-    font-size: 30px;
-    color: black;
-    width: 1160px;
-    height: 270px;
-
-    font-family: "Montserrat", sans-serif;
-    
-    border-collapse: collapse;
-    border: 1px solid black;
-    border-spacing: 0;
-}
-
-.block-3 tr{
-    border-bottom: 2px solid black;
-}
-
-.block-3 #cost{
-    color: #4B1A14;
-    font-size: 30px;
-    font-weight: 600;
-} 
- */
