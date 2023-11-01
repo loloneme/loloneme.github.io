@@ -36,7 +36,7 @@ body {
 }
 
 .block-2{
-    padding: 91px 140px 0 140px;
+    padding-top: 90px;
     color: white;
     text-align: left;
 }
@@ -44,7 +44,10 @@ body {
 .block-2 .text{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    max-width: 1165px;
     justify-content: space-evenly;
+
 }
 
 .block-2 .where{
@@ -70,29 +73,47 @@ body {
 }
 
 .block-3{
+    padding-top: 20px;
+}
+
+.block-3 .content{
+    max-width: 1165px;
+    margin: 0 auto;
     color: white;
-    padding: 92px 140px 74px 140px;
     font-size: 35px;
     text-align: left;
     display: flex;
     justify-content: space-between;
+    /* flex-direction: column; */
     align-items: flex-end;
 }
 
 .block-3 #time{
-    padding-bottom: 41px;
+    /* padding-bottom: 41px; */
     font-size: 45px;
     color: #C7A25D;
     text-align: right;
 }
 
 .block-3 .schedule{
-    max-width: 400px;
+    /* max-width: 500px;
+    height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .block-3 #what{
     text-decoration: underline;
-    padding-bottom: 39px;
+    /* padding-bottom: 39px; */
+}
+
+.block-3 .map{
+    width: 700px;
+    height: 500px;
+}
+
+.block-3 .map iframe{
 }
 
 .block-4{
@@ -101,7 +122,7 @@ body {
 }
 
 .block-4 .line{
-    text-align: center;
+    /* float: ; */
 }
 
 .block-4 .contacts{
@@ -112,8 +133,12 @@ body {
 }
 
 .block-4 .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
     font-size: 35px;
     line-height: 101.4%; 
+    max-width: 700px;
 }
 
 .block-4 .phones{
@@ -127,4 +152,6 @@ body {
     text-align: left;
     max-width: 365px;
 }
+
+
 
