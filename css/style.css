@@ -18,11 +18,11 @@ body {
 }
 
 [class*="-text-2"]{
-    margin-top: 11px;
+    padding-top: 11px;
     font-size: 20px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;;
+    font-weight: 300;
 }
 
 
@@ -74,27 +74,51 @@ body {
 .gradient{
     background-image: url('../src/back.svg');
     background-size: cover;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .block-2 {
-    padding: 140px;
-    padding-bottom: 0;
-    text-align: left;
-    display: flex;
+    padding-top: 140px;
     color: white;
 }
 
+.block-2 .content {
+    margin: 0 auto;
+    max-width: 1160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.womanlook img{
+    width: 100%;
+}
+
 .womanlook{
-    width: 600px;
-    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.block-2 .woman-and-text{
+    display: flex;
+    justify-content: space-around;
 }
 
 .text {
-    float: right;
+    text-align: left;
+    max-width: 500px;
 }
 
 .question{
     font-size: 60px;
+}
+
+.sur-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .sur-desc span{
@@ -103,21 +127,21 @@ body {
 }
 
 .description{
-    padding-top: 67px;
+    /* padding-top: 65px; */
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 300;
 }
 
 .quote{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     padding-top: 145px;
-    max-width: 408px;
-    float: right;
 }
 
-
-
 .quote-text{
+    max-width: 408px;
     font-size: 25px;
 }
 
@@ -129,7 +153,8 @@ body {
 }
 
 .block-3{
-    padding-top: 89px;
+    position: relative;
+    padding-top: 90px;
     color: black;
 }
 
@@ -143,28 +168,33 @@ body {
 }
 
 .block-3 .dive{
-    margin-top: 132px;
-    padding-left: 140px;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
 }
 
-.block-3 .dive-text{
-    font-size: 65px;
-}
 
 .block-3 .dive-text-2{
     max-width: 360px;
 }
 
 .block-3 .shagal-pic{
-    margin-top: 140px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
+
 .text-and-pic{
-    display: flex;
+    /* display: flex; */
+    margin: 0 auto;
+    /* justify-content: space-evenly; */
+    overflow: hidden;
+    max-width: 1160px;
 }
 
 .block-4{
-    padding-top: 300px;
+    padding-top: 600px;
     text-align: center;
 }
 
@@ -190,7 +220,9 @@ body {
 }
 
 .block-4 .look{
-    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .block-4 .look-text{
@@ -204,18 +236,28 @@ body {
 
 .block-5{
     padding-top: 185px;
+}
+
+.block-5 .content{
+    max-width: 1060px;
     display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.block-5 .man-pic{
+    max-width: 724px;
+
 }
 
 .block-5 #man{
-    margin-left: 177px;
-    max-width: 723px;
-    height: auto;
+    width: 100%;
 }
 
 .block-5 .find{
-    margin-top: 157px;
-    margin-left: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: right;
 }
 
@@ -230,16 +272,22 @@ body {
 }
 
 .block-6 .dali-q{
-    margin-top: 104px;
-    max-width: 437px;
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .block-6 .dali-q span{
     color: #AF5013;
 }
 
+.block-6 .dali-pic{
+    max-width: 580px;
+}
+
 #dali-pic{
-    max-width: 581px;
+    width: 100%;
 }
 
 [class*="-q"]{
@@ -248,59 +296,65 @@ body {
 }
 
 .block-7{
+    max-width: 1160px;
     padding-top: 225px;
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.block-7 .pic{
+    max-width: 300px;
 }
 
 .block-7 #kahlo-1, .block-7 #kahlo-2{
     border-radius: 50%;
-    max-width: 300px;
+    width: 100%;
 }
 
 .block-7 .kahlo-q{
     display: flex;
     flex-direction: column;
-    width: 525px;
+    max-width: 525px;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
-.block-7 p{
-    margin-bottom: 14px;
-}
 
-.block-7 .kahlo-q #second{
+.block-7 .kahlo-q .second{
     text-align: center;
 }
 
-.block-7 .kahlo-q #third{
+.block-7 .kahlo-q .third{
     text-align: right;
-    margin-right: 30px;
+    padding-right: 15px;
 }
 
-.block-7 .kahlo-q #forth{
+.block-7 .kahlo-q .forth{
     color: #6781DE;
-    margin-top: 58px;
     text-align: center;
 }
 
 .block-8{
-    padding-top: 121px;
+    padding-top: 200px;
     display: flex;
     text-align: right;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
+.block-8 .pic{
+    max-width: 595px;
+}
 
 .block-8 #human-son{
-    max-height: 495px;
-    width: auto;
-    margin-left: 45px;
+    width: 100%;
 }
 
 .block-8 .magritte-q{
+    padding-right: 100px;
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    justify-content: space-between;
 }
 
 .block-8 .magritte-q span{
@@ -308,28 +362,35 @@ body {
 }
 
 
-.block-8 .magritte-q #symbol{
-    margin-right: 200px;
-    max-width: 480px;
+.block-8 .magritte-q .symbol{
+    max-width: 435px;
 }
 
 .block-8 .not-an-apple{
     display: flex;
-    margin-top: 116px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.block-8 #apple{
-    max-width: 187px;
+.block-8 .apple{
+    max-width: 190px;
+}
+
+.block-8 .apple img{
+    width: 100%;
 }
 
 .block-8 .apple-text{
-    display:grid;
-    margin-left: 28px;
-    margin-top: 109px;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.block-8  #why{
-    margin-left: 40px;
+.block-8 #arrow{
+    scale: 0.5;
+}
+
+.block-8 .why{
     font-size: 25px;
     max-width: 141px;
 }
@@ -339,20 +400,27 @@ body {
 }
 
 .block-9{
+    position: relative;
+    max-width: 1160px;
+    margin: 0 auto;
     display: flex;
+    justify-content: right;
     padding-top: 175px;
     text-align: right;
 }
 
 .block-9 .text-freud{
     display: flex;
+    max-width: 875px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .block-9 #book-pic{
-    max-width: 369px;
-    position: relative;
-    top: 80px; 
-    left: 100px;
+    max-width: 370px;
+    position: absolute;
+    left: 0;
+    top: 245px;
     transform: rotate(-16.5deg);
 }
 
@@ -364,7 +432,86 @@ body {
     color: #6F7166;
 }
 
-.block-9 #freud{
+.block-9 .freud-pic{
     max-width: 285px;
+}
+
+.block-9 #freud{
+    width: 100%;
     border-radius: 1000px 1000px 0 0;
 }
+
+.block-10{
+    overflow: hidden;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block-10 .kush-q span{
+    color: #7731BC;
+}
+
+.block-10 .pics{
+    max-width: 2070px;
+    padding-top: 120px;
+}
+
+.block-10 .pics img{
+    width: 100%;
+}
+
+.block-11{
+    margin: 0 auto;
+    padding-top: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-11 .garden{
+    max-width: 420px;
+}
+
+.block-11 .garden img{
+    width: 100%;
+    border-radius: 0px 1000px 1000px 0px
+}
+
+.block-11 .bosch-q span{
+    color: #E6485C;
+}
+
+.block-11 .bosch-text{
+    display: flex;
+    align-items: center;
+    max-width: 325px;
+}
+
+.block-11 .hell {
+    max-width: 535px;
+}
+
+.block-11 .hell img{
+    width: 100%;
+    border-radius: 1000px 0 0 1000px;
+}
+
+.block-12{
+    color: white;
+    text-align: center;
+    padding-top: 105px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-12 .all{
+    font-size: 30px;
+}
+
+.block-12 .exhibition{
+    font-size: 65px;
+    font-family: 'Source Serif 4', serif;
+}
+

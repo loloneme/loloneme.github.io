@@ -93,10 +93,10 @@ body {
     grid-gap: 80px;
     padding-top: 80px;
     max-width: 1160px;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .block-4 .wait{
-    font-size: 75px;
+    font-size: 65px;
     text-align: center;
 }
