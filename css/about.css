@@ -6,6 +6,7 @@
 body {
     background-color: black;
     font-family: 'Forum', serif;
+    position: relative;
 }
 
 .container{
@@ -77,27 +78,23 @@ body {
 }
 
 .block-3 .content{
-    max-width: 1165px;
+    max-width: 1160px;
     margin: 0 auto;
     color: white;
     font-size: 35px;
     text-align: left;
     display: flex;
     justify-content: space-between;
-    /* flex-direction: column; */
-    align-items: flex-end;
 }
 
 .block-3 #time{
-    /* padding-bottom: 41px; */
     font-size: 45px;
     color: #C7A25D;
     text-align: right;
 }
 
 .block-3 .schedule{
-    /* max-width: 500px;
-    height: 100%; */
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -105,7 +102,6 @@ body {
 
 .block-3 #what{
     text-decoration: underline;
-    /* padding-bottom: 39px; */
 }
 
 .block-3 .map{
@@ -118,40 +114,52 @@ body {
 
 .block-4{
     color: white;
-    padding: 0 140px 0px 0px;
+    padding-top: 80px;
+    height: 1310px;
 }
 
-.block-4 .line{
-    /* float: ; */
+.block-4 .content{
+    max-width: 1160px;
+    margin: 0 auto;
 }
 
 .block-4 .contacts{
     color: #C7A25D;
     font-size: 75px;
-    padding-top: 74px;
-    padding-left: 548px;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.block-4 .aboba{
+    display: flex;
+    justify-content: right;
 }
 
 .block-4 .info{
+    width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: right;
     font-size: 35px;
     line-height: 101.4%; 
-    max-width: 700px;
+    /* max-height: 530px; */
 }
 
 .block-4 .phones{
-    padding-top: 90px;
+    /* padding-top: 90px; */
     text-align: right;
-    max-width: 450px;
+    display: flex;
+    width: 100%;
+    justify-content: right;
 }
 
 .block-4 .time{
-    padding-top: 90px;
-    text-align: left;
     max-width: 365px;
+    padding-top: 90px;
 }
 
-
-
+#bottom-woman{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}

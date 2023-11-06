@@ -6,6 +6,7 @@
 body {
     background-color: #4B1A14;
     font-family: 'Forum', serif;
+    position: relative;
 }
 
 .container{
@@ -64,7 +65,7 @@ body {
     margin: 0 auto;
     line-height: 45px;
     padding-top: 75px;
-    max-width: 1180px;
+    max-width: 1160px;
 }
 
 .block-2 .list span{
@@ -77,15 +78,13 @@ body {
 
 .block-3{
     padding-top: 120px;
-    display: flex;
-    justify-content: center;
 }
 
 .block-3 .ticket-list{ 
+    margin: 0 auto;
     font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
-    text-align: left;
     
     border: 1px solid black;
     background-color: rgba(142, 178, 176, 0.78);
@@ -95,7 +94,10 @@ body {
 }
 
 .block-3 .cat{
-    padding: 25px 0px 25px 0px;
+    width: 100%;
+    /* padding: 25px 0px 25px 0px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
     display:flex;
     justify-content: space-around;
     font-size: 30px;
@@ -103,7 +105,8 @@ body {
 }
 
 .block-3 .name{
-    width: 253px;
+    max-width: 255px;
+    width: 100%;
 }
 
 
@@ -111,7 +114,9 @@ body {
     color: #4B1A14;
     font-size: 30px;
     font-weight: 600;
-    width: 82px;
+    max-width: 80px;
+    width: 100%;
+    text-align: left;
 }
 
 .block-3 .sub, .block-3 .add{
@@ -132,8 +137,62 @@ inset 0 2px 0 rgba(255, 255, 255, 0.6),
 }
 
 .block-3 .count{
-    display: inline-flex;
+    max-width: 185px;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
-    /* width: 185px; */
+    align-items: center;
 }
 
+.block-4{
+    padding-top: 65px;
+    max-height: 1000px;
+    height: 100%;
+}
+
+.block-4 .content{
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-4 .purchase{
+    font-size: 30px;
+    color: white;
+}
+
+.block-4 .buy{
+    max-width: 440px;
+    width: 100%;
+    border-radius: 10px;
+    background-color:#D9C5A1;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    height: 100px;
+
+}
+
+.bottom{
+    padding-top: 300px;
+}
+
+#bottom-pic{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+}
+
+#bottom-grad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
