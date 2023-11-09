@@ -50,9 +50,9 @@
                             300₽
                         </div>
                         <div class="count">
-                            <button class="sub">−</button>
-                            <div class="counter">0</div>
-                            <button class="add">+</button>
+                            <div class="sub counter">−</div>
+                            <div class="num"><input id="number" type="text" disabled value="0"></div>
+                            <div class="add counter">+</div>
                         </div>
                     </div>
                     <div class="cat">
@@ -63,9 +63,9 @@
                             0₽
                         </div>
                         <div class="count">
-                            <button class="sub">−</button>
-                            <div class="counter">0</div>
-                            <button class="add">+</button>
+                            <div class="sub counter">−</div>
+                            <div class="num"><input id="number" type="text" disabled value="0"></div>
+                            <div class="add counter">+</div>
                         </div>
                     </div>
                     <div class="cat" style="border-bottom: 0;">
@@ -76,9 +76,9 @@
                             500₽
                         </div>
                         <div class="count">
-                            <button class="sub">−</button>
-                            <div class="counter">0</div>
-                            <button class="add">+</button>
+                            <div class="sub counter">−</div>
+                            <div class="num"><input id="number" type="text" disabled value="0"></div>
+                            <div class="add counter">+</div>
                         </div>
                     </div>
                 </div>
@@ -89,12 +89,12 @@
                 <div class="content">
                     <div class="purchase">
                         <div class="tickets">
-                            Вы покупаете: <span class="how-many">0</span> билетов
+                            Вы покупаете: <input id="how-many" type="text" disabled value="0"> билетов
                         </div>
                         <div class="total">
                             К оплате: <span class="total-cost">0</span>₽
                         </div>
-                    </div>
+                    </div> 
                     <button class="buy">Оплатить</button>
                 </div>
             </div>
@@ -103,6 +103,7 @@
             <img src="src/grad-3.svg" id="bottom-grad">
             <img src="src/picture.jpg" id="bottom-pic">
         </div>
+    <script  src="js/tickets.js"></script>
 
     </body>
 </html>

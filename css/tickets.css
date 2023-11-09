@@ -100,6 +100,7 @@ body {
     padding-bottom: 25px;
     display:flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 30px;
     border-bottom: 2px solid black;
 }
@@ -125,15 +126,29 @@ body {
 inset 0 2px 0 rgba(255, 255, 255, 0.6),
     0 2px 0 rgba(0,0,0,.1),
     inset 0 0 20px rgba(0,0,0,.1);
-
+    
+    flex: 0 0 45px;
     border: none;
     border-radius: 50%;
-    width: 45px;
     height: 45px;
     background-color: #D9C5A1;
-    font-size: 25px;
     color: black;
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.block-3 .num input{
+    width: 100%;
+    max-width: 50px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
 }
 
 .block-3 .count{
@@ -142,6 +157,8 @@ inset 0 2px 0 rgba(255, 255, 255, 0.6),
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    user-select: none;
 }
 
 .block-4{
@@ -156,6 +173,16 @@ inset 0 2px 0 rgba(255, 255, 255, 0.6),
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.block-4 .tickets input{
+    max-width: 50px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Forum", serif;
+    color: white;
 }
 
 .block-4 .purchase{
