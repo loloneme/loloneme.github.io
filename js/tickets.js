@@ -1,6 +1,11 @@
 const counters = document.querySelectorAll('.counter');
 const numberOfTickets = document.querySelector('#how-many');
+const total = document.querySelector('#total-cost');
 
+let a = Array.from(document.getElementsByClassName('cost')).map(c => parseInt(c.innerText.slice(0, -1)));
+// console.log(document.getElementsByClassName('cost'));
+// Array.from(a).forEach(n => console.log(n.innerText));
+// console.log(a);
 
 if (counters){
     counters.forEach(counter => {
@@ -21,6 +26,12 @@ if (counters){
                 }
 
                 target.closest('.count').querySelector('input').value = value;
+
+                let c = Array.from(document.querySelectorAll('#number')).map(c => parseInt(c.value));
+                let total = 0;
+                c.forEach((i, index) => {total += i * a[index]});
+                document.querySelector('#total-cost').value = total;
+
                 let sum = 0;
                 
                 document.querySelectorAll('#number').forEach(n => {

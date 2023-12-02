@@ -11,7 +11,7 @@ body {
 
 .container{
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 75vw;
 }
 
 .block-1{
@@ -51,7 +51,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    max-width: 1160px;
+    max-width: 75vw;
     row-gap: 70px;
 }
 
@@ -100,4 +100,101 @@ body {
 .block-4 .wait{
     font-size: 65px;
     text-align: center;
+}
+
+@media (max-width: 1200px){
+    .block-2, .block-4 .wait{
+        font-size: 60px;
+    }
+    .block-3 .day{
+        gap: 40px;
+    }
+
+    .block-3 .when{
+        font-size: 35px;
+    }
+
+    .block-3 .what{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1000px){
+    .block-2, .block-4 .wait{
+        font-size: 45px;
+    }
+
+    .block-3 .what{
+        font-size: 20px;
+    }
+    
+    .block-4 .info{
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 800px){
+    .block-3 .event{
+        padding-left: 15px;
+    }
+    .block-2, .block-4 .wait{
+        font-size: 50px;
+    }
+    .block-3 .day{
+        gap: 30px;
+    }
+
+    .block-3 .when{
+        font-size: 25px;
+    }
+
+    .block-3 .what{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px){
+    .block-2{
+        padding-top: 50px;
+    }
+    .block-2, .block-4 .wait{
+        font-size: 40px;
+    }
+    .block-3 .day{
+        gap: 20px;
+    }
+
+    .block-3 .when{
+        font-size: 20px;
+    }
+
+    .block-3 .what{
+        font-size: 15px;
+    }
+
+    .block-4 .info{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px){
+    .block-3 .day{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-3 .event{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .block-3 .what{
+        text-align: center;
+    }
+
+    .block-3 .when{
+        border-bottom: #C28D61 solid 2px;
+    }
 }

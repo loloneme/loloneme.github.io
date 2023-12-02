@@ -185,6 +185,16 @@ inset 0 2px 0 rgba(255, 255, 255, 0.6),
     color: white;
 }
 
+.block-4 #total-cost{
+    max-width: 100px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Forum", serif;
+    color: white;
+}
+
 .block-4 .purchase{
     font-size: 30px;
     color: white;
