@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 body {
     background-color: #4B1A14;
     font-family: 'Forum', serif;
@@ -11,7 +12,7 @@ body {
 
 .container{
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 75vw;
 }
 
 .block-1{
@@ -113,7 +114,7 @@ body {
 
 .block-3 .cost{
     color: #4B1A14;
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: 600;
     max-width: 80px;
     width: 100%;
@@ -157,7 +158,6 @@ inset 0 2px 0 rgba(255, 255, 255, 0.6),
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     user-select: none;
 }
 
@@ -168,17 +168,14 @@ inset 0 2px 0 rgba(255, 255, 255, 0.6),
 }
 
 .block-4 .content{
-    max-width: 1040px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.block-4 .tickets input{
+.block-4 #how-many{
     max-width: 50px;
-    border: none;
-    background-color: transparent;
     text-align: center;
     font-size: 30px;
     font-family: "Forum", serif;
@@ -187,8 +184,6 @@ inset 0 2px 0 rgba(255, 255, 255, 0.6),
 
 .block-4 #total-cost{
     max-width: 100px;
-    border: none;
-    background-color: transparent;
     text-align: center;
     font-size: 30px;
     font-family: "Forum", serif;
@@ -211,24 +206,330 @@ inset 0 2px 0 rgba(255, 255, 255, 0.6),
     font-weight: 600;
     font-size: 30px;
     height: 100px;
-
 }
 
-.bottom{
+/* .bottom{
     padding-top: 300px;
-}
+} */
 
 #bottom-pic{
-    position: absolute;
-    bottom: 0;
+    padding-top: 50px;
+    bottom: -10px;
+    /* position: absolute; */
     left: 0;
     width: 100%;
     position: relative;
 }
 
-#bottom-grad{
-    position: absolute;
+/* #bottom-grad{
+    position: relative;
     left: 0;
     width: 100%;
     z-index: 3;
+}
+*/
+
+@media (max-width: 1200px){
+    .block-2 .main-text #first{
+        font-size: 60px;
+    }
+
+    .block-2 .main-text #second{
+        font-size: 25px;
+        padding-top: 60px;
+    }
+
+    .block-2 .list{
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 50px;
+    }
+
+    .block-3{
+        padding-top: 100px;
+    }
+
+    .block-3 .cat{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+
+    .block-3 .num input{
+        font-size: 30px;
+    }
+
+    .block-4 .purchase{
+        font-size: 25px;
+    }
+
+    .block-4 .buy{
+        max-width: 350px;
+        width: 100%;
+        font-size: 25px;
+        height: 75px;
+    
+    }
+
+    .block-3 .count{
+        max-width: 150px;
+    }
+
+    .block-3 .sub, .block-3 .add{   
+        flex: 0 0 40px;     
+        height: 40px;
+    }
+}
+
+@media (max-width: 1000px){
+    .block-2 .main-text #first{
+        font-size: 45px;
+    }
+
+    .block-2 .main-text #second{
+        font-size: 22px;
+    }
+
+    .block-2 .main-text #second{
+        padding-top: 60px;
+    }
+
+    .block-2 .list{
+        font-size: 22px;
+        line-height: 35px;
+        padding-top: 50px;
+    }
+
+    .block-3{
+        padding-top: 80px;
+    }
+
+    .block-3 .count{
+        max-width: 125px;
+    }
+
+    .block-3 .cat{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .block-3 .num input{
+        font-size: 25px;
+    }
+
+    .block-4 .purchase{
+        font-size: 22px;
+    }
+
+    .block-4 .buy{
+        max-width: 250px;
+        width: 100%;
+        font-size: 22px;
+        height: 75px;
+    
+    }
+    .block-3 .sub, .block-3 .add{  
+        flex: 0 0 35px;           
+        height: 35px;
+    }
+}
+
+@media (max-width: 800px){
+    .block-2 .main-text #second{
+        font-size: 22px;
+    }
+
+    .block-2 .list{
+        line-height: 30px;
+        padding-top: 50px;
+    }
+
+    .block-3{
+        padding-top: 60px;
+    }
+
+    .block-3 .name{
+        max-width: 200px;
+    }
+
+
+    .block-4 .buy{
+        max-width: 225px;
+        width: 100%;
+        font-size: 20px;
+        height: 65px;
+    }
+
+    .block-3 .ticket-list{ 
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 700px){
+    .block-4 .content{
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .block-4 .buy{
+        float: right;
+    }
+}
+
+@media (max-width: 600px){
+    .block-2 .main-text #first{
+        font-size: 40px;
+    }
+
+    .block-2 .main-text #second{
+        font-size: 20px;
+    }
+
+    .block-2 .main-text #second{
+        padding-top: 60px;
+    }
+
+    .block-2 .list{
+        font-size: 20px;
+        line-height: 25px;
+        padding-top: 50px;
+    }
+
+    .block-3{
+        padding-top: 80px;
+    }
+
+    .block-3 .name{
+        max-width: 175px;
+    }
+
+    .block-3 .cost{
+        max-width: 60px;
+    }
+
+    .block-3 .count{
+        max-width: 100px;
+    }
+
+    .block-3 .cat{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .block-3 .num input{
+        font-size: 22px;
+    }
+
+    .block-4 .purchase{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .block-4 #total-cost, .block-4 #how-many{
+        font-size: 25px;
+    }
+
+    .block-4 .buy{
+        max-width: 200px;
+        width: 100%;
+        font-size: 22px;
+        height: 65px;
+    }
+    
+    .block-3 .sub, .block-3 .add{  
+        font-size: 20px;
+        flex: 0 0 30px;           
+        height: 30px;
+    }
+
+    .block-3 .ticket-list{ 
+        border-radius: 35px;
+    }
+
+    .block-4 .content{
+        display: block;
+    }
+}
+
+@media (max-width: 500px){
+    .block-2 .main-text #first{
+        font-size: 35px;
+    }
+
+    .block-2 .main-text #second{
+        font-size: 20px;
+        padding-top: 40px;
+
+    }
+
+    .block-2 .list{
+        font-size: 18px;
+        padding-top: 40px;
+    }
+
+    .block-3{
+        padding-top: 70px;
+    }
+
+    .block-3 .name{
+        max-width: 125px;
+        padding-left: 10px;
+    }
+
+    .block-3 .cost{
+        max-width: 60px;
+    }
+
+    .block-3 .count{
+        max-width: 80px;
+        padding-right: 10px;
+    }
+
+    .block-3 .cat{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .block-3 .num input{
+        font-size: 18px;
+    }
+
+    .block-4{
+        padding-top: 50px;
+    }
+
+    .block-4 .purchase{
+        font-size: 20px;
+    }
+
+    .block-4 #total-cost, .block-4 #how-many{
+        font-size: 20px;
+    }
+
+    .block-4 .buy{
+        max-width: 175px;
+        width: 100%;
+        font-size: 18px;
+        height: 50px;
+    }
+    
+    .block-3 .sub, .block-3 .add{  
+        font-size: 18px;
+        flex: 0 0 25px;           
+        height: 25px;
+    }
+
+    .block-3 .ticket-list{ 
+        border-radius: 30px;
+    }
+
+    .block-4 .content{
+        margin: 0 auto;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

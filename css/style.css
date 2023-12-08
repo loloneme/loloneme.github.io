@@ -10,7 +10,7 @@ body {
 
 .container{
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 85vw;
 }
 
 [class*="-text"]{
@@ -31,16 +31,17 @@ body {
 .block-1{
     font-size: 25px;
     background-image: url('../src/tree.png');
-    height: 1089px;
+    height: calc(0.75 * 100vw);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
 
 #main-grad{
+
     position: absolute;
     width: 100%;
-    bottom: -5px;
+    bottom: -10px;
 }
 
 .navigation{
@@ -53,7 +54,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 22px;
-    margin: 0;
 }
 
 
@@ -80,12 +80,15 @@ body {
 }
 
 .gradient{
-    background-image: url('../src/back.svg');
+    overflow: hidden;
+    /* background-image: url('../src/back.svg');
     background-size: cover;
-    height: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-}
+    width: 100%;
+    max-width: 85vw;
+    margin: 0 auto; */
+
+    background: linear-gradient(180deg, #7F9CBC 10.24%, #000 21.65%);
+    }
 
 .block-2 {
     padding-top: 140px;
@@ -101,16 +104,21 @@ body {
 
 .womanlook img{
     width: 100%;
+    max-width: 600px;
+    float: left;
+
 }
 
-.womanlook{
+/* .womanlook{
     display: flex;
     align-items: center;
-}
+} */
 
 .block-2 .woman-and-text{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 25px;
 }
 
 .text {
@@ -120,25 +128,28 @@ body {
 
 .question{
     font-size: 60px;
+    text-align: left;
+    padding-bottom: 30px;
 }
 
 .sur-desc{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    align-items: center;
+    /* height: 100%; */
+    column-gap: 15px;
 }
 
-.sur-desc span{
+.block-2 span{
     color: #9B322C;
     font-weight: 400;
 }
 
 .description{
-    /* padding-top: 65px; */
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 300;
+    max-width: 500px;
 }
 
 .quote{
@@ -148,8 +159,8 @@ body {
     padding-top: 145px;
 }
 
-.quote-text{
-    max-width: 408px;
+.quote-txt{
+    max-width: 410px;
     font-size: 25px;
 }
 
@@ -189,7 +200,7 @@ body {
 .block-3 .shagal-pic{
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: -100px;
 }
 
 
@@ -211,6 +222,7 @@ body {
     justify-content: space-around;
     max-width: 1075px;
     margin: 0 auto;
+    column-gap: 15px;
 }
 
 .block-4 #left, .block-4 #right{
@@ -234,7 +246,7 @@ body {
 }
 
 .block-4 .look-text{
-    font-size: 65px;
+    /* font-size: 65px; */
     color: #A80606;
 }
 
@@ -289,6 +301,7 @@ body {
     padding-top: 186px;
     display: flex;
     justify-content: space-evenly;
+    column-gap: 25px;
 }
 
 .block-6 .dali-q{
@@ -321,6 +334,7 @@ body {
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
+    column-gap: 15px;
 }
 
 .block-7 .pic{
@@ -446,12 +460,13 @@ body {
     max-width: 370px;
     position: absolute;
     left: 0;
-    top: 245px;
+    top: 300px;
     transform: rotate(-16.5deg);
 }
 
 .block-9 .freud-q{
     max-width: 535px;
+    padding-right: 25px;
 }
 
 .block-9 .freud-q span{
@@ -480,19 +495,23 @@ body {
     color: #7731BC;
 }
 
-.block-10 .pics{
+ .pics{
     max-width: 2070px;
     padding-top: 120px;
+    float: center;
 }
 
-.block-10 .pics img{
+.pics img{
+    overflow: hidden;
     width: 100%;
+    scale: 1.2;
 }
 
 .block-11{
     margin: 0 auto;
     padding-top: 190px;
     display: flex;
+    column-gap: 25px;
     justify-content: space-between;
 }
 

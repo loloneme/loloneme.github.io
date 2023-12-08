@@ -2,11 +2,15 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8" />
+        <link rel="icon" href="src/abstract.png"/>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/tickets.css" rel="stylesheet">
+        <link href="css/nav-adapt.css" rel="stylesheet">
+
 
         <title>Купить билет</title>
     </head>
@@ -49,6 +53,7 @@
                         <div class="cost">
                             300₽
                         </div>
+
                         <div class="count">
                             <div class="sub counter">−</div>
                             <div class="num"><input id="number" type="text" disabled value="0"></div>
@@ -89,20 +94,18 @@
                 <div class="content">
                     <div class="purchase">
                         <div class="tickets">
-                            Вы покупаете: <input id="how-many" type="text" disabled value="0"> билетов
+                            Вы покупаете:   <span id="how-many">0</span> билетов
                         </div>
                         <div class="total">
-                            К оплате: <input id="total-cost" type="text" disabled value="0">₽
+                            К оплате:  <span id="total-cost">0</span>₽
                         </div>
                     </div> 
-                    <button class="buy">Оплатить</button>
+                        <button class="buy">Оплатить</button>
                 </div>
             </div>
         </div>
-        <div class="bottom">
-            <img src="src/grad-3.svg" id="bottom-grad">
-            <img src="src/picture.jpg" id="bottom-pic">
-        </div>
+        <img src="src/g.svg" id="bottom-pic">
+
     <script  src="js/tickets.js"></script>
 
     </body>

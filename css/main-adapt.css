@@ -1,0 +1,280 @@
+@media (max-width: 1300px){
+    .block-3 .shagal-pic{
+        scale: 0.85;
+        right: -200px;
+    }
+
+    .block-9 #book-pic {
+        max-width: 370px;
+        top: 245px;
+    }
+}
+
+@media (max-width: 1200px){
+    .intro-block {
+        padding-top: 150px;
+    }
+
+    .intro-block .desc {
+        padding-top: 20px;
+    }
+
+    .question {
+        font-size: 50px;
+    }
+
+    .block-3 .shagal-pic{
+        scale: 0.85;
+        right: -200px;
+    }
+
+    .block-9 #book-pic {
+        max-width: 300px;
+        top: 280px;
+    }
+
+    .block-10 .kush-q{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1100px){
+    [class*="-text"]{
+        font-size: 55px;
+    }
+
+    [class*="-text-2"]{
+        padding-top: 11px;
+        font-size: 20px;
+    }
+
+    [class*="-q"] {
+        font-size: 35px;
+        color: white;
+    }
+
+    .gradient{
+        background: linear-gradient(180deg, #7F9CBC 14.24%, #000 24.65%)
+    }
+
+    .intro-block {
+        padding-top: 150px;
+    }
+
+    .intro-block .desc {
+        padding-top: 15px;
+        font-size: 18px;
+        max-width: 250px;
+    }
+
+    .sur-image img{
+        max-width: 400px;
+    }
+
+    .intro-block .real {
+        padding-top: 35px;
+        font-size: 60px;
+    }
+
+
+    .block-3 .intro-text {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .block-2 .woman-and-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description{
+        font-size: 22px;
+        max-width: none;
+    }
+
+    .womanlook{
+        padding-bottom: 25px;
+        max-width: 500px;
+    }
+
+    .sur-desc{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-9 #book-pic {
+        max-width: 300px;
+        top: 280px;
+    }
+
+    .block-10 .kush-q{
+        text-align: center;
+    }
+
+    .block-8 .apple {
+        max-width: 150px;
+    }
+
+    .block-8 .magritte-q {
+        padding-right: 0px;
+    }
+
+    .block-8 .not-an-apple {
+        justify-content: space-evenly;
+    }
+
+    .pics img{
+        scale: 1.5;
+    }
+}
+
+@media (max-width: 1000px){
+    .intro-block {
+        padding-top: 120px;
+    }
+    
+    .block-3 .shagal-pic{
+        scale: 0.75;
+        right: -200px;
+    }
+
+    .block-4 {
+        padding-top: 500px;
+    }
+
+    .block-4 #left, .block-4 #right {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .block-6 .dali-pic {
+        max-width: 500px;
+    }
+
+    .block-7 .pic {
+        max-width: 200px;
+    }
+
+    .block-8 .pic {
+        max-width: 400px;
+        position: relative;
+    }
+
+    .block-8 .apple {
+        max-width: 120px;
+    }
+
+    .block-9 #book-pic {
+        max-width: 300px;
+        top: 280px;
+    }
+
+    .block-10 .kush-q{
+        text-align: center;
+    }
+
+    .pics {
+        padding-top: 100px;
+    }
+
+    .block-12 .exhibition {
+        font-size: 55px;
+    }
+}
+
+
+@media (max-width: 900px){
+    [class*="-text"]{
+        font-size: 50px;
+    }
+
+    [class*="-text-2"]{
+        font-size: 18px;
+    }
+
+    [class*="-q"] {
+        font-size: 35px;
+        color: white;
+    }
+
+
+    .intro-block {
+        padding-top: 110px;
+    }
+
+    .intro-block .desc {
+        padding-top: 15px;
+        font-size: 15px;
+        max-width: 250px;
+    }
+
+    .sur-image img{
+        max-width: 350px;
+    }
+
+    .intro-block .real {
+        padding-top: 25px;
+        font-size: 55px;
+    }
+
+    .block-2 .description{
+        font-size: 18px;
+    }
+
+    .quote-txt {
+        max-width: 410px;
+        font-size: 20px;
+    }
+
+    .block-9 #book-pic {
+        max-width: 250px;
+        top: 320px;
+    }
+
+    .block-9 .freud-pic {
+        max-width: 250px;
+    }
+
+    .pics img{
+        scale: 1.3;
+    }
+}
+
+@media (max-width: 800px){
+    [class*="-text"]{
+        font-size: 40px;
+    }
+
+    [class*="-text-2"]{
+        font-size: 15px;
+    }
+
+    [class*="-q"] {
+        font-size: 30px;
+    }
+
+    .block-3 .shagal-pic{
+        scale: 0.7;
+        right: -250px;
+    }
+
+    .block-4 #left, .block-4 #right {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .block-8{position: relative;}
+
+    .block-8 .pic {
+        max-width: 300px;
+        position: none;
+    }
+
+    .block-8 #left-grad {
+        left: 0px;
+        scale: 0.5;
+    }
+
+
+}
