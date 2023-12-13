@@ -7,9 +7,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;600;800&family=Source+Serif+4:ital,opsz@1,8..60&display=swap" rel="stylesheet">        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <script src="https://lidrekon.ru/slep/js/jquery.js"></script> -->
-<!-- <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script> -->
-        <!-- <link href="dist/bvi.min.css" rel="stylesheet"> -->
+        <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+        <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
         <link href="css/style.css" rel="stylesheet">
         <link href="css/nav-adapt.css" rel="stylesheet">
         <link href="css/main-adapt.css" rel="stylesheet">
@@ -23,52 +22,38 @@
 
     <body>
         <div class="block-1">
+            <img src="src/main-grad.svg" id="top-grad">
+
             <div class="container" style="max-width: 75vw;">
                 <div class="navigation">
-                <nav class="menu">
-                    <ul>
-                        <li><a href="/index.html" >Главная</a></li>
-                        <li><a href="/tickets.html">Купить билет</a></li>
-                        <li><a href="/about.html">О выставке</a></li>
-                        <li><a href="/program.html">Программа</a></li>
-                    </ul>
-                </nav>
-            </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="/index.html" >Главная</a></li>
+                            <li><a href="/tickets.html">Купить билет</a></li>
+                            <li><a href="/about.html">О выставке</a></li>
+                            <li><a href="/program.html">Программа</a></li>
+                            <img id="specialButton" style="cursor:pointer; max-width: 30px;" src="src/color.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" />
+                        </ul>
+                    </nav>
+                </div>
 
-            <div class="intro-block">
-                <div class="sur-image">
-                    <img src="src/sur.svg">
+                <div class="intro-block">
+                    <div class="sur-image">
+                        <img src="src/sur.svg">
+                    </div>
+                    <div class="caption">
+                        <div class="real">РЕАЛИЗМ</div>
+                        <div class="desc">Выставка работ сюрреалистов “Искусство как сон”</div>
+                    </div>
                 </div>
-                <div class="caption">
-                    <div class="real">РЕАЛИЗМ</div>
-                    <div class="desc">Выставка работ сюрреалистов “Искусство как сон”</div>
-                </div>
-            </div>
             </div>
             <img src="src/main-grad.svg" id="main-grad">
 
         </div>
-        <!-- <img id="specialButton" style="cursor:pointer;" src="https://lidrekon.ru/images/special.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" /> -->
         <div class="gradient">
             <div class="container">
                 <div class="block-2">
                     <div class="content">
-                        <!-- <div class="woman-and-text">
-                            <div class="sur-desc">
-                                <div class="question">
-                                    Что такое <span>сюрреализм?</span>
-                                </div>
-                                <div class="womanlook">
-                                    <img src="src/womanlook.png">
-                                </div>
-                                <div class="description">
-                                    <p>Это <span>авангардное</span> направление в мировом изобразительном искусстве. Он возник в 1920-е годы во Франции. 
-                                        Сюрреалисты изображали тайные мысли, желания и страхи, бессознательные фантазии, детские и любовные воспоминания
-                                    <br><br>Сюрреализм — это <span>сон</span>. Он не реальный, но и не ирреальный. Для него характерны аллюзии и парадоксальное сочетание форм. </p>
-                                </div>
-                            </div>
-
-                        </div> -->
                         <div class="woman-and-text">
                             <div class="question">
                                 Что такое <span>сюрреализм?</span>
@@ -270,7 +255,8 @@
             </div>
             
         </div>
-        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
     </body>
 
 </html>

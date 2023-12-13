@@ -148,6 +148,11 @@
         height: auto;
     }
 
+    .block-5 #left-grad{
+        scale: 0.5;
+        top: -100px;
+    }
+
     .block-6 .dali-pic {
         max-width: 500px;
     }
@@ -158,7 +163,12 @@
 
     .block-8 .pic {
         max-width: 400px;
-        position: relative;
+    }
+
+    .block-8 #left-grad{
+        scale: 0.7;
+        left: -50px;
+        top: -150px;
     }
 
     .block-8 .apple {
@@ -180,6 +190,14 @@
 
     .block-12 .exhibition {
         font-size: 55px;
+    }
+
+    .block-4 #right {
+        scale: 0.8;
+    }
+
+    .block-4 #left{
+        scale: -0.8 0.8;
     }
 }
 
@@ -239,6 +257,22 @@
     .pics img{
         scale: 1.3;
     }
+
+    .block-11{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        text-align: center;
+    }
+
+    .block-11 .garden{
+        align-self: flex-start;
+    }
+
+    .block-11 .hell{
+        align-self: flex-end;
+    }
+
 }
 
 @media (max-width: 800px){
@@ -254,6 +288,14 @@
         font-size: 30px;
     }
 
+    .question {
+        font-size: 40px;
+    }
+
+    .gradient{
+        background: linear-gradient(180deg, #7F9CBC 15.24%, #000 30.65%);
+    }
+
     .block-3 .shagal-pic{
         scale: 0.7;
         right: -250px;
@@ -264,17 +306,478 @@
         height: auto;
     }
 
-    .block-8{position: relative;}
 
     .block-8 .pic {
         max-width: 300px;
-        position: none;
+    }
+}
+
+@media (max-width: 700px){
+    [class*="-text"]{
+        font-size: 35px;
+    }
+
+    [class*="-text-2"]{
+        font-size: 15px;
+    }
+
+    [class*="-q"] {
+        font-size: 25px;
+    }
+
+    .intro-block {
+        padding-top: 60px;
+    }
+
+    .intro-block .desc {
+        padding-top: 10px;
+        font-size: 15px;
+        max-width: 180px;
+    }
+
+    .sur-image img{
+        max-width: 250px;
+    }
+
+    .intro-block .real {
+        padding-top: 15px;
+        font-size: 40px;
+    }
+
+    .quote-txt {
+        max-width: 250px;
+        font-size: 20px;
+    }
+
+    .block-3 .shagal-pic {
+        scale: 0.5;
+        right: -300px;
+    }
+
+    .block-8 .apple {
+        max-width: 100px;
+    }
+
+    .block-8 .apple img{
+        scale: 0.8;
+    }
+
+    .block-9 #freud{
+        scale: 0.8;
+    }
+
+    .block-9 .freud-q {
+        padding-right: 0px;
+    }
+
+    .block-9 #book-pic {
+        max-width: 200px;
+        top: 320px;
+    }
+
+    .block-10 {
+        padding-top: 150px;
+    }
+
+    .block-12 .all {
+        font-size: 25px;
+    }
+
+    .block-12 .exhibition {
+        font-size: 45px;
+    }
+
+    .block-12 .buy {
+        font-size: 20px;
+        max-width: 250px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .block-11{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        text-align: center;
+    }
+
+    .block-11 .garden{
+        width: 350px;
+    }
+
+    .block-11 .hell{
+        width: 370px
+    }
+}
+
+@media (max-width: 600px){
+    [class*="-text"]{
+        font-size: 35px;
+    }
+
+    [class*="-text-2"]{
+        font-size: 15px;
+    }
+
+    [class*="-q"] {
+        font-size: 22px;
+    }
+
+    .block-1 #top-grad{
+        display: block;
+    }
+
+    .block-1 {
+        margin-top: 20px;
+    }
+
+    .intro-block {
+        padding-top: 80px;
+    }
+
+    .intro-block .desc {
+        padding-top: 10px;
+        font-size: 12px;
+        max-width: 200px;
+    }
+
+    .sur-image img{
+        max-width: 250px;
+    }
+
+    .intro-block .real {
+        padding-top: 15px;
+        font-size: 35px;
+    }
+    
+
+    .block-3 .shagal-pic {
+        right: -300px;
+        top: 50px;
+    }
+
+    .pics img {
+        scale: 1.6;
+    }
+
+    .block-4 #left, .block-4 #right {
+        max-width: 150px;
+    }
+
+    .block-5 #left-grad {
+        scale: 0.5;
+        left: -50px;
+        top: -200px;
+    }
+
+    .block-5 #bottom-grad {
+        scale: 0.3;
+        bottom: -70px;
+        left: -500px;
+    }
+
+    .block-8 .magritte-q .symbol {
+        max-width: none;
+    }
+
+    .block-8 .apple {
+        max-width: 80px;
+    }
+
+    .block-8 .not-an-apple {
+        justify-content: right;
+    }
+
+    .block-8 #arrow {
+        scale: 0.4;
+    }
+
+    .block-8 .why {
+        font-size: 15px;
+    }
+
+    .block-9 #freud{
+        scale: 0.8;
+    }
+
+    .block-9 .freud-q {
+        padding-right: 0px;
+        text-align: left;
+    }
+
+    .block-9 .freud-pic{
+        max-width: none;
+    }
+
+    .block-9 #book-pic {
+        max-width: 200px;
+        top: 320px;
+        left: -30px;
+        scale: 0.7;
+    }
+
+    .block-10 {
+        padding-top: 120px;
+    }
+
+    .block-10 {
+        padding-top: 150px;
+    }
+
+    .block-12 .all {
+        font-size: 25px;
+    }
+
+    .block-12 .exhibition {
+        font-size: 45px;
+    }
+
+    .block-12 .buy {
+        font-size: 20px;
+        max-width: 250px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px){
+    [class*="-text"]{
+        font-size: 30px;
+    }
+
+    [class*="-text-2"]{
+        font-size: 12px;
+    }
+
+    [class*="-q"] {
+        font-size: 20px;
+    }
+
+    
+
+    .womanlook {
+        max-width: 350px;
+    }
+
+    .block-2 {
+        padding-top: 100px;
+    }
+
+    .block-2 .description {
+        font-size: 15px;
+    }
+
+    .quote-txt {
+        max-width: 250px;
+        font-size: 15px;
+    }
+
+    .quote .author {
+        font-size: 12px;
+    }
+
+    .question {
+        font-size: 30px;
+    }
+
+    .block-3 .intro-text {
+        font-size: 30px;
+    }
+
+    .block-3 .shagal-pic {
+        scale: 0.45;
+        right: -350px;
+        top: 0px;
+    }
+
+    .block-4 #right {
+        scale: 0.7;
+    }
+
+    .block-4 #left{
+        scale: -0.7 0.7;
+    }
+
+    .block-4 .content {
+        column-gap: 10px;
+    }
+
+    .block-5 {
+        padding-top: 150px;
+    }
+
+    .block-8 .magritte-q {
+        align-items: flex-end;
+    }
+
+    .block-8 .apple img{
+        scale: 0.6;
+    }
+    
+    .block-8 .apple-text{
+        max-width: 80px;
+    }
+
+    .block-8 .not-an-apple {
+        max-width: 200px;
     }
 
     .block-8 #left-grad {
-        left: 0px;
+        scale: 0.5;
+        left: -50px;
+        top: -200px;
+    }
+
+    .block-12 .all {
+        font-size: 20px;
+    }
+
+    .block-12 .exhibition {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 450px){
+    .intro-block {
+        padding-top: 60px;
+    }
+
+    .intro-block .desc {
+        padding-top: 10px;
+        font-size: 10px;
+        max-width: 150px;
+    }
+
+    .sur-image img{
+        max-width: 200px;
+    }
+
+    .intro-block .real {
+        padding-top: 0px;
+        font-size: 30px;
+    }
+
+    .block-4 #right {
+        scale: 0.6;
+    }
+
+    .block-4 #left{
+        scale: -0.6 0.6;
+    }
+
+    .block-11 .garden{
+        width: 250px;
+    }
+
+    .block-11 .hell{
+        width: 270px
+    }
+
+}
+
+@media (max-width: 400px){
+    [class*="-text"]{
+        font-size: 25px;
+    }
+
+    [class*="-text-2"]{
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+    [class*="-q"] {
+        font-size: 15px;
+    }
+
+    .intro-block {
+        padding-top: 60px;
+    }
+
+    .intro-block .desc {
+        padding-top: 5px;
+        font-size: 10px;
+        max-width: 150px;
+    }
+
+    .sur-image img{
+        max-width: 150px;
+    }
+
+    .intro-block .real {
+        padding-top: 5px;
+        font-size: 25px;
+    }
+
+    .block-3 .shagal-pic {
+        scale: 0.4;
+        right: -400px;
+        top: 0px;
+    }
+
+    .block-4 .content {
+        column-gap: 0px;
+    }
+
+    .block-4{
+        padding-top: 400px;
+    }
+
+    .block-4 #right {
         scale: 0.5;
     }
 
+    .block-4 #left{
+        scale: -0.5 0.5;
+    }
 
+    .block-5 #left-grad {
+        /* scale: 0.5;
+        left: -50px;
+        top: -200px; */
+        display: none;
+    }
+
+    .block-5{
+        padding-top: 100px;
+    }
+
+    .block-6, .block-7, .block-8, .block-9, .block-10, .block-11{
+        padding-top: 120px;
+    }
+
+    .block-8 #human-son {
+        scale: 0.8;
+    }
+
+    .block-8 .why {
+        font-size: 10px;
+    }
+
+    .block-9 #freud {
+        scale: 0.6;
+        display:block
+    }
+
+    .block-9 .text-freud{
+        align-items: center;
+    }
+
+    .block-9 #book-pic {
+        display: none;
+    }
+
+    .block-12 .buy {
+        font-size: 15px;
+        max-width: 200px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .block-5 #bottom-grad {
+        scale: 0.2;
+        bottom: -90px;
+        left: -600px;
+    }
 }
