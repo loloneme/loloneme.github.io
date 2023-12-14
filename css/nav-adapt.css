@@ -10,12 +10,12 @@
 }
 
 .burger-btn span{
+    background-color: white;
     position: absolute;
     width: 30px;
     height: 3px;
     left: 20px;
-    background-color: white;
-    transition: all .5s, ease .5s;
+    transition: all .5s, ease .5s, opacity 0s;
 }
 
 
@@ -27,9 +27,6 @@
     transform: translateY(10px);
 }
 
-.burger-btn span{
-    background-color: white;
-}
 
 .burger-btn.open span:nth-child(2){
     opacity: 0;
@@ -44,7 +41,8 @@
 }
 
 #specialButton{
-    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 
@@ -63,6 +61,16 @@
 }
 
 @media (max-width: 600px){
+    body{
+        position: relative;
+    }
+
+    #specialButton{
+        position: absolute;
+        margin: 0;
+        top: 20px;
+        right: 20px;
+    }
 
     .burger-btn{
         display: block;
@@ -70,19 +78,18 @@
 
     .navigation{
         z-index: 3;
-        transition: transform .5s;
         position: absolute;
-        left: 0;
-        top: -100%;
+        left: -100%;
+        top: 0;
         background-color: black;
         transition: all .5s;
-        padding: 75px 10px 20px 20px;
-        width: (100%) - 30px;
-        height: 100%;
+        padding: 75px 20px 20px 20px;
+        width: auto;
+        height: 100vh;
     }
 
-    .block-1.open .navigation{
-        top: 0;
+    .navigation.open{
+        left: 0;
     }
 
     .navigation ul{

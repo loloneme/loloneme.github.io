@@ -1,12 +1,17 @@
 function n(){
-    let n = $(".navigation")
+    let n = $(".navigation");
+    let b = $('#specialButton');
     if (window.innerWidth <= 600) {
         $("body").prepend(n);
+        $("body").prepend(b);
     }
     else{
         $(".block-1 .container").prepend(n);
+        $(".block-1").prepend(b);
     }
+    
 }
+
 
 $( window ).resize(n);
 if (window.innerWidth <= 600){
@@ -15,14 +20,25 @@ if (window.innerWidth <= 600){
 
 // $('#specialButton').on('click', function(e) {
 //     // $('.block-1').detach();
-//     $('#main-grad').css("display", "none");
-//     $('.sur-image').css("display", "none");
-//     // $('#special .special-panel .special').on('click', function(e){
-//     //     // $('#main-grad').css("display", "block");
-//     //     alert('зывалызващ');
-//     // });
+//     $('#main-grad').toggleClass('hide');
+//     // $('.sur-image').css("display", "none");
+//     var ch = document.querySelector("#special");
+//     var p = document.querySelector("body");
+//     console.log(ch);
+
+//     if (p.contains(ch)){
+//         alert('dspfoksdp');
+//         console.log('a');
+//     }
+
 // });
 
+
+
+// $('#special .special-panel .special-quit').on('click', function(e){
+//     // $('#main-grad').css("display", "block");
+//     alert('зывалызващ');
+// });
 
 
 

@@ -2,9 +2,7 @@ const counters = document.querySelectorAll('.counter');
 const numberOfTickets = document.querySelector('#how-many');
 
 let a = Array.from(document.getElementsByClassName('cost')).map(c => parseInt(c.innerText.slice(0, -1)));
-// console.log(document.getElementsByClassName('cost'));
-// Array.from(a).forEach(n => console.log(n.innerText));
-// console.log(a);
+
 
 if (counters){
     counters.forEach(counter => {
@@ -38,7 +36,6 @@ if (counters){
                 });
 
                 numberOfTickets.innerHTML = sum;
-                console.log(numberOfTickets);
             }
         })
     })

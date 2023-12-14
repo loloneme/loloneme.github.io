@@ -424,6 +424,11 @@
         font-size: 22px;
     }
 
+    .navigation{
+        background-color: #465d75 !important; 
+    }
+
+
     .block-1 #top-grad{
         display: block;
     }

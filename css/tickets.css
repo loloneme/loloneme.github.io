@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+.burger-btn span{
+    background-color: #9BCDCA !important;
+}
 
 body {
     background-color: #4B1A14;
@@ -378,6 +381,16 @@ inset 0 2px 0 rgba(255, 255, 255, 0.6),
 }
 
 @media (max-width: 600px){
+    .navigation{
+        background-color: #380f0a !important; 
+    }
+    .navigation a{
+        color: #9BCDCA !important;
+    }
+
+    .block-2{
+        padding-top: 50px;
+    }
     .block-2 .main-text #first{
         font-size: 40px;
     }

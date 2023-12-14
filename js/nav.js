@@ -1,4 +1,4 @@
 $('.burger-btn').on('click', (function(e){
-    $('.block-1').toggleClass('open');
+    $('.navigation, .burger-btn').toggleClass('open');
     $('body').toggleClass('lock');
 }));
