@@ -17,8 +17,6 @@ body {
 
 [class*="-text"]{
     font-size: 65px;
-    z-index: 10;
-
 }
 
 [class*="-text-2"]{
@@ -74,6 +72,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 22px;
 }
 

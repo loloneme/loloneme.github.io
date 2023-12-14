@@ -1,13 +1,13 @@
 function n(){
     let n = $(".navigation");
-    let b = $('#specialButton');
+    // let b = $('#specialButton');
     if (window.innerWidth <= 600) {
         $("body").prepend(n);
-        $("body").prepend(b);
+        // $("body").prepend(b);
     }
     else{
         $(".block-1 .container").prepend(n);
-        $(".block-1").prepend(b);
+        // $(".menu ul").prepend(b);
     }
     
 }

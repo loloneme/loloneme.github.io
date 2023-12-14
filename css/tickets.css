@@ -18,6 +18,10 @@ body {
     max-width: 75vw;
 }
 
+::-webkit-scrollbar-thumb {
+    background-color: #9BCDCA !important;
+}
+
 .block-1{
     font-size: 25px;
 }
@@ -28,6 +32,7 @@ body {
 }
 
 .block-1 ul{
+    align-items: center;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
